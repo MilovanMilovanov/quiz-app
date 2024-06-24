@@ -1,6 +1,5 @@
-Certainly! Here's an improved version of your README text:
-
 Quiz App
+
 A simple interactive Quiz App built using Vite, React, TypeScript, and Tailwind CSS.
 
 ## Table of Contents
