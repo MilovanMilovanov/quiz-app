@@ -35,7 +35,7 @@ To get started with the Quiz App, follow these steps:
 
 ## Clone the repository:
 
-//
+git clone https://github.com/MilovanMilovanov/quiz-app.git
 
 ## Start the App:
 
