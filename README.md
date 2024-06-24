@@ -15,7 +15,9 @@ A simple interactive Quiz App built using Vite, React, TypeScript, and Tailwind 
 - [State Management](#state-management)
 - [API](#api)
 
-# This Quiz App is designed to provide a seamless and # # interactive experience for users to take quizzes.
+## Overview
+
+The Quiz App is designed to provide a seamless and # # interactive experience for users to take quizzes.
 
 ## Technologies Used
 
