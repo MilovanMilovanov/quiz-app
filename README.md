@@ -29,14 +29,9 @@ The Quiz App is designed to provide a seamless and interactive experience for us
 - Styling: Tailwind CSS for modern, responsive styling.
 - API: i used json-server for simplicity
 
-Installation
-To get started with the Quiz App, follow these steps:
-
-## Clone the repository:
+## Start the App:
 
 git clone https://github.com/MilovanMilovanov/quiz-app.git
-
-## Start the App:
 
 install dependencies:
 
