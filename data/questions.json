@@ -1,0 +1,349 @@
+{
+  "questions": [
+    {
+      "question": "Which is the most popular JavaScript framework?",
+      "options": ["Angular", "React", "Svelte", "Vue"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which company invented React?",
+      "options": ["Google", "Apple", "Netflix", "Facebook"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "What's the fundamental building block of React apps?",
+      "options": ["Components", "Blocks", "Elements", "Effects"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What's the name of the syntax we use to describe the UI in React components?",
+      "options": ["FBJ", "Babel", "JSX", "ES2015"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "How does data flow naturally in React apps?",
+      "options": [
+        "From parents to children",
+        "From children to parents",
+        "Both ways",
+        "The developers decides"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "How to pass data into a child component?",
+      "options": ["State", "Props", "PropTypes", "Parameters"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "When to use derived state?",
+      "options": [
+        "Whenever the state should not trigger a re-render",
+        "Whenever the state can be synchronized with an effect",
+        "Whenever the state should be accessible to all components",
+        "Whenever the state can be computed from another state variable"
+      ],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "What triggers a UI re-render in React?",
+      "options": [
+        "Running an effect",
+        "Passing props",
+        "Updating state",
+        "Adding event listeners to DOM elements"
+      ],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "When do we directly \"touch\" the DOM in React?",
+      "options": [
+        "When we need to listen to an event",
+        "When we need to change the UI",
+        "When we need to add styles",
+        "Almost never"
+      ],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "In what situation do we use a callback to update state?",
+      "options": [
+        "When updating the state will be slow",
+        "When the updated state is very data-intensive",
+        "When the state update should happen faster",
+        "When the new state depends on the previous state"
+      ],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "If we pass a function to useState, when will that function be called?",
+      "options": [
+        "On each re-render",
+        "Each time we update the state",
+        "Only on the initial render",
+        "The first time we update the state"
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "Which hook to use for an API request on the component's initial render?",
+      "options": ["useState", "useEffect", "useRef", "useReducer"],
+      "correctOption": 1,
+      "points": 15
+    },
+    {
+      "question": "Which variables should go into the useEffect dependency array?",
+      "options": [
+        "Usually none",
+        "All our state variables",
+        "All state and props referenced in the effect",
+        "All variables needed for clean up"
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "An effect will always run on the initial render.",
+      "options": [
+        "True",
+        "It depends on the dependency array",
+        "False",
+        "In depends on the code in the effect"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "When will an effect run if it doesn't have a dependency array?",
+      "options": [
+        "Only when the component mounts",
+        "Only when the component unmounts",
+        "The first time the component re-renders",
+        "Each time the component is re-rendered"
+      ],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "Which method in a React class component is used to handle errors?",
+      "options": [
+        "componentDidCatch",
+        "componentDidUpdate",
+        "componentWillUnmount",
+        "render"
+      ],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "What does the 'key' prop help with in React lists?",
+      "options": [
+        "Styling",
+        "Rendering performance",
+        "Identifying which items have changed",
+        "Event handling"
+      ],
+      "correctOption": 2,
+      "points": 15
+    },
+    {
+      "question": "How do you optimize performance for multiple updates to the same component?",
+      "options": [
+        "Using useEffect",
+        "Using useState",
+        "Using useCallback",
+        "Using React.memo"
+      ],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "Which hook should you use to manage complex state logic?",
+      "options": ["useState", "useEffect", "useRef", "useReducer"],
+      "correctOption": 3,
+      "points": 15
+    },
+    {
+      "question": "How do you refer to an element in React?",
+      "options": [
+        "By using a key",
+        "By using a ref",
+        "By using props",
+        "By using state"
+      ],
+      "correctOption": 1,
+      "points": 15
+    },
+    {
+      "question": "Which of the following is true about props in React?",
+      "options": [
+        "They can be modified by the child component",
+        "They are read-only",
+        "They are optional",
+        "They are used to manage state"
+      ],
+      "correctOption": 1,
+      "points": 15
+    },
+    {
+      "question": "How can you prevent re-rendering of a functional component in React?",
+      "options": [
+        "By using React.memo",
+        "By using useEffect",
+        "By using useRef",
+        "By using useState"
+      ],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "What is the use of React.Fragment?",
+      "options": [
+        "To handle errors",
+        "To optimize performance",
+        "To group multiple elements",
+        "To handle asynchronous code"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "What does the useContext hook do?",
+      "options": [
+        "Manages state",
+        "Provides a way to pass data through the component tree",
+        "Handles side effects",
+        "References DOM elements"
+      ],
+      "correctOption": 1,
+      "points": 15
+    },
+    {
+      "question": "What is the primary purpose of the useRef hook?",
+      "options": [
+        "Managing state",
+        "Handling side effects",
+        "Creating mutable references",
+        "Optimizing rendering"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "How do you handle side effects in a functional component?",
+      "options": [
+        "Using useState",
+        "Using useEffect",
+        "Using useContext",
+        "Using useReducer"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What is the return type of the render method in React?",
+      "options": ["String", "Number", "JSX", "Array"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which lifecycle method is invoked immediately after a component is mounted?",
+      "options": [
+        "componentDidUpdate",
+        "componentDidMount",
+        "componentWillUnmount",
+        "render"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "What happens when you call setState() in React?",
+      "options": [
+        "The state is updated immediately",
+        "The state is updated asynchronously",
+        "The state is updated synchronously",
+        "The component unmounts"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "What is a controlled component in React?",
+      "options": [
+        "A component that controls its own state",
+        "A component that has no state",
+        "A component that receives its state from a parent component",
+        "A component that is controlled by user inputs"
+      ],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "How can you avoid binding 'this' in a React class component?",
+      "options": [
+        "Using arrow functions",
+        "Using regular functions",
+        "Using componentDidMount",
+        "Using componentWillUnmount"
+      ],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "What is React's Context API used for?",
+      "options": [
+        "Managing side effects",
+        "Managing global state",
+        "Handling asynchronous code",
+        "Creating refs"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "How do you update state in a functional component?",
+      "options": [
+        "Using this.setState",
+        "Using setState",
+        "Using useState",
+        "Using useEffect"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which lifecycle method is called when a component is removed from the DOM?",
+      "options": [
+        "componentDidUpdate",
+        "componentDidMount",
+        "componentWillUnmount",
+        "componentWillUpdate"
+      ],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "What does React's strict mode help with?",
+      "options": [
+        "Enhancing rendering performance",
+        "Identifying potential problems in the application",
+        "Managing state",
+        "Handling side effects"
+      ],
+      "correctOption": 1,
+      "points": 10
+    }
+  ]
+}
