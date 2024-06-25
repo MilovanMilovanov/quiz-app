@@ -20,7 +20,7 @@ The Quiz App is designed to provide a seamless and interactive experience for us
 
 ## Technologies Used
 
-- React Features: Utilized React Suspense for loader indicator and ErrorBoundary for the error handling.
+- React Features: Utilized React Routing, React Suspense for loader indicator and ErrorBoundary for the error handling.
 - TypeScript: Applied for static typing and better code quality.
 - State Management: Managed using useReducer combined with the Context API for efficient state handling.
 - Build Tool: Vite is used for fast and efficient builds.
