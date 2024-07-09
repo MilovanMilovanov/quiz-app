@@ -65,7 +65,7 @@ npx cypress run
 
 ## State Management
 
-The app uses useReducer combined with the Context API for state management
+I utalized useReducer combined with the Context API for state management
 
 ## API
 
